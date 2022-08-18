@@ -47,5 +47,42 @@ Output: 12
 # Solution
 Code 1 :
 ```Javascript
+var minPathSum = function (grid) {
+    let x = grid[0].length;
+    let y = grid.length;
+    let arr = [];
+    for (let i = 0; i < y; i++) {
+        let obj = [];
+        for (let j = 0; j < x; j++) {
+            obj.push(0);
+        }
+        arr[i] = obj;
+    }
+    for (let i = 0; i < y; i++) {
+        for (let j = 0; j < x; j++) {
+            if (i == 0 && j == 0) {
+                arr[i][j] = grid[i][j];
+            } else {
+                let top = Infinity;
+                let left = Infinity;
+                if (i - 1 >= 0) {
+                    top = grid[i - 1][j];
+                    if (arr[i - 1][j] != 0) {
+                        top = arr[i - 1][j];
+                    }
+                }
+                if (j - 1 >= 0) {
+                    left = grid[i][j - 1];
+                    if (arr[i][j - 1] != 0) {
+                        left = arr[i][j - 1];
+                    }
+                }
+                let min = Math.min(top, left);
 
+                arr[i][j] = grid[i][j] + min;
+            }
+        }
+    }
+    return arr[y - 1][x - 1];
+};
 ```
