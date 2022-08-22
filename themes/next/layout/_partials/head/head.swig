@@ -59,3 +59,10 @@
 {%- endif %}
 
 {{ next_config() }}
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4614349675508012"
+crossorigin="anonymous"></script>
+
+
+

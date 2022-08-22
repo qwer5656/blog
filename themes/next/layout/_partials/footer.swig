@@ -59,3 +59,12 @@
 {%- endif %}
 
 {{- next_inject('footer') }}
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4614349675508012"
+     data-ad-slot="5458416367"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
