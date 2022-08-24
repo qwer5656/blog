@@ -36,7 +36,9 @@ Output: [2,3]
 
 
 # 解題思路
-1.如果比頭小時，從尾巴開始搜尋
+1.設當前及上一個node和存放開頭的變數
+2.當遇到相同值時，依序往前比較
+3.如pre還是空時，將開頭直接等於next
 # Solution
 ```Javascript
 var deleteDuplicates = function (head) {
@@ -47,7 +49,6 @@ var deleteDuplicates = function (head) {
     let headnode = head;
     let pre = null;
     while (cur != null && cur.next != null) {
-
         if (cur.val == cur.next.val) {
             let next = cur.next;
             while (next != null && next.val == cur.val) {
@@ -59,13 +60,11 @@ var deleteDuplicates = function (head) {
             } else {
                 pre.next = next;
                 cur = next;
-
             }
         } else {
             pre = cur;
             cur = cur.next;
         }
-
     }
     return headnode;
 };

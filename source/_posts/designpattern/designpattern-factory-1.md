@@ -6,6 +6,7 @@ tags:
 - Design Pattern
 - oop
 - 工廠模式
+- 創建模式
 categories: 
 - C#
 - Design Pattern

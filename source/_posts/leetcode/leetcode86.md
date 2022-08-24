@@ -36,3 +36,11 @@ Example 2:
 Input: head = [2,1], x = 2
 Output: [1,2]
 ```
+
+
+# 解題思路
+
+# Solution
+```Javascript
+
+```
