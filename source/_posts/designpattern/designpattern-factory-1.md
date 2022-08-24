@@ -15,7 +15,7 @@ categories:
 設計模式介紹，以飲料店為實例來實現工廠模式的情境
 
 # 前言
-工廠模式是很常見的設計模式，工廠模式分為兩個工廠和商品，工廠主要負責生產商品，商品主要是呈現有哪些功能和特性，就以飲料店為例子來實作工廠模式
+工廠模式是很常見的設計模式，簡單工廠模式有一個工廠，由工廠專門負責製造使用者需要的商品，商品主要是呈現有哪些功能和特性，就以飲料店為例子來實作工廠模式
 
 
 <!--more-->
@@ -49,7 +49,7 @@ public interface IProduct
       string Size{get;}//尺寸
       string Ice{get;}//冰塊
       string Sugar { get; }//甜度
-      void doclientproduct(int accoumt, string size, string ice,string sugar);//客人的需求
+      void doclientproduct(int accoumt, string size, string ice,string sugar="");//客人的需求
       void doproduct();//無客製化
       void info();//顯示資訊
 }
@@ -220,7 +220,28 @@ class fruit:IProduct
         }
     }
 ```
+<h3 style="color:red">簡單工廠</h3>
 
+```C#
+   class Factory { 
+        public IProduct createproduct(string type,string name)
+        {
+            if (type == "茶類")
+            {
+                return new tea(name);
+            }
+            else if (type == "水果類")
+            {
+                return new fruit(name);
+            }
+
+            return null;
+        }
+    
+    
+    }
+
+```
 
 <h3 style="color:red">接收客戶需求</h3>
 
