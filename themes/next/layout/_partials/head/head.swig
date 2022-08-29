@@ -60,7 +60,7 @@
 
 {{ next_config() }}
 
-
+<meta name="google-site-verification" content="Dltoh42ZhcA7DgcnVwBEPB-rDzL-jidqoWwLoLs6eAA" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4614349675508012"
 crossorigin="anonymous"></script>
 

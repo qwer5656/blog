@@ -39,8 +39,41 @@ Output: [1,2]
 
 
 # 解題思路
-
+1.當小於x的node放到minhead裡
+2.當大於等於的node放到maxhead裡
+3 最後再將minhead和maxhead連結
 # Solution
 ```Javascript
-
+var partition = function (head, x) {
+    let cur = head;
+    let minhead = head;
+    let maxhead;
+    let minnode;
+    let maxnode;
+    while (cur != null) {
+        if (cur.val < x) {
+            if (minnode == null) {
+                minnode = cur;
+                headnode = cur;
+            } else {
+                minnode.next = cur;
+                minnode = minnode.next;
+            }
+        } else {
+            if (maxnode == null) {
+                maxnode = cur;
+                maxhead = cur;
+            } else {
+                maxnode.next = cur;
+                maxnode = maxnode.next;
+            }
+        }
+        cur = cur.next;
+    }
+    if (minnode != null && maxnode != null) {
+        minnode.next = maxhead;
+        maxnode.next = null;
+    }
+    return minhead;
+};
 ```
