@@ -29,6 +29,9 @@
 {%- if theme.google_site_verification %}
   <meta name="google-site-verification" content="{{ theme.google_site_verification }}">
 {%- endif %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4614349675508012"
+crossorigin="anonymous"></script>
+
 {%- if theme.bing_site_verification %}
   <meta name="msvalidate.01" content="{{ theme.bing_site_verification }}">
 {%- endif %}
@@ -61,8 +64,6 @@
 {{ next_config() }}
 
 <meta name="google-site-verification" content="Dltoh42ZhcA7DgcnVwBEPB-rDzL-jidqoWwLoLs6eAA" />
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4614349675508012"
-crossorigin="anonymous"></script>
 
 
 

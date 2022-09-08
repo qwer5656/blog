@@ -113,3 +113,10 @@ search:
   format: html
   limit: 10000
   content: true
+
+# google
+hexo_google_adsense:
+  enable: true
+  log_msg: true
+  tag_name: 'GoogleAdsense'
+  file_path: 'source/ads/google/article_ads.html'
