@@ -19,6 +19,7 @@ Given the head of a sorted linked list, delete all nodes that have duplicate num
 # 翻譯
 給定一個排序鍊錶的頭部，刪除所有具有重複數字的節點，只留下原始鍊錶中不同的數字。返回排序好的鍊錶。
 
+# 範例
 
 Example 1:
 ![example](../image/leetcode/leetcode82_1.jpg "example")

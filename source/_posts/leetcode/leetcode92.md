@@ -19,6 +19,8 @@ Given the head of a singly linked list and two integers left and right where lef
 # 翻譯
 給定單鍊錶的頭部和左右兩個整數，其中left <= right，將列表的節點從左到右反轉，並返回反轉後的列表。
 
+# 範例
+
 Example 1:
 ![example](../image/leetcode/leetcode92.jpg "example")
 ```

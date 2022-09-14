@@ -56,6 +56,9 @@ The test cases are generated so that the answer fits in a 32-bit integer.
 
 生成測試用例以使答案適合 32 位整數。
 
+
+# 範例
+
 Example 1:
 ```
 Input: s = "12"

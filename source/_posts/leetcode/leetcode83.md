@@ -20,6 +20,9 @@ Given the head of a sorted linked list, delete all duplicates such that each ele
 # 翻譯
 給定排序鍊錶的頭部，刪除所有重複項，使每個元素只出現一次。返回排序好的鍊錶。
 
+
+# 範例
+
 Example 1:
 ![example](../image/leetcode/leetcode83_1.jpg "example")
 ```

@@ -24,6 +24,8 @@ You should preserve the original relative order of the nodes in each of the two 
 您應該保留兩個分區中每個分區中節點的原始相對順序。
 
 
+# 範例
+
 Example 1:
 ![example](../image/leetcode/leetcode86.jpg "example")
 ```

@@ -34,6 +34,8 @@ You must decrease the overall operation steps as much as possible.
 您必須盡可能減少整體操作步驟。
 
 
+# 範例
+
 Example 1:
 ```
 Input: nums = [2,5,6,0,0,1,2], target = 0

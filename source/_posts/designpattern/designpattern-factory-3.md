@@ -25,7 +25,7 @@ categories:
 # 實作工廠模式
 # 流程介紹
 
-![result](../image/designpattern/designpattern-factory-3_1.png "result")
+![result](../image/designpattern/designpattern_factory_3_1.PNG "result")
 
 1.建立抽象Mouse和Keyboard
 
@@ -144,7 +144,7 @@ static void Main(string[] args)
 
 <h3 style="color:red">顯示結果</h3>
 
-![result](../image/designpattern/designpattern-factory-3_2.png "result")
+![result](../image/designpattern/designpattern_factory_3_2.PNG "result")
 
 
 # 結語

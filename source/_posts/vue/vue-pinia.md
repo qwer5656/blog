@@ -104,7 +104,7 @@ export default {
 
 # result
 
-![result](../image/vue/piniaview.png "result")
+![result](../image/vue/piniaview.PNG "result")
 
 
 # 結語

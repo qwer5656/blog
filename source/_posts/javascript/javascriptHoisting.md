@@ -97,7 +97,7 @@ var test=function(){
     console.log("hello world");
 }
 ```
-![error](../image/jshosting/hostingfnerror.png "error")
+![error](../image/jshosting/hostingfnerror.PNG "error")
 
 變數有被提升，但賦值沒被提升所以會跳出
 <font color="#dd00">test is not a function</font>
@@ -125,7 +125,7 @@ function test(){
       var a="hello world";
 }
 ```
-![error](../image/jshosting/hostinginlinefnerror.png "error")
+![error](../image/jshosting/hostinginlinefnerror.PNG "error")
 
 函數外的a跳出錯誤<font color="#dd00">a is not define</font>，函數內的a因為只有變數a提升但沒賦值所以印出undefined
 

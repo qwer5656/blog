@@ -1,11 +1,16 @@
 ---
-title: 前端login Ras加密
+title: 前端login RSA加密
 date: 2022-09-08 13:39:48
 tags:
+- JavaScript
+- RSA加密
+- Login
+- Vue
+categories: JavaScript
 ---
 
 # 前言
-由於前端資訊不安全，需透過Ras加密方式將密碼傳給後端並進行解密，RAS是一種非對稱加密演算法，在公開金鑰加密和電子商業中被廣泛使用。
+由於前端資訊不安全，需透過RSA加密方式將密碼傳給後端並進行解密，RSA是一種非對稱加密演算法，在公開金鑰加密和電子商業中被廣泛使用。
 
 <!-- more -->
 # 傳統加密
@@ -18,9 +23,9 @@ tags:
 ![result](../image/javascript/publictoprivate.png "result")
 圖片來源：<a href="https://www.twilio.com/blog/what-is-public-key-cryptography">twillo</a>
 # RSA加密與解密
-1.使用公钥加密的数据,利用私钥进行解密
-2.使用私钥加密的数据,利用公钥进行解密
-# RSA秘钥生成方式
+1.使用公鑰加密的數據,利用私鑰進行解密
+2.使用私鑰加密的數據,利用公鑰進行解密
+# RSA秘鑰生成方式
 Mac系統內置OpenSSL(開源加密庫),所以可以直接在終端上使用命令。
 Windows系統可以使用git命令行工具
 單擊鼠標右鍵——git bash here 調出git bash
@@ -97,12 +102,12 @@ bn5i62SpyiHRzh+tL2DSxCYbLW5KOU6CoxRfw/o55A==`;
 ```
 
 # result
-![result](../image/javascript/result.png "result")
+![result](../image/javascript/result.PNG "result")
 
 
 # 結語
 
-1.RAS與一般對稱加密安全許多
+1.RSA與一般對稱加密安全許多
 
 2.NIST建議的RSA密鑰長度為至少2048位元[8]。
 

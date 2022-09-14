@@ -25,7 +25,7 @@ categories:
 # 實作工廠模式
 # 流程介紹
 
-![result](../image/designpattern/designpattern-factory-2_1.png "result")
+![result](../image/designpattern/designpattern_factory_2_1.PNG "result")
 
 1.建立character的interface
 
@@ -165,7 +165,7 @@ static void Main(string[] args)
 
 <h3 style="color:red">顯示結果</h3>
 
-![result](../image/designpattern/designpattern-factory-2_2.png "result")
+![result](../image/designpattern/designpattern_factory_2_2.PNG "result")
 
 
 

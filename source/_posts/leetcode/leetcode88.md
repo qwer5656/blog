@@ -27,6 +27,7 @@ The final sorted array should not be returned by the function, but instead be st
 
 最終的排序數組不應由函數返回，而是存儲在數組 nums1 中。為了適應這一點，nums1 的長度為 m + n，其中前 m 個元素表示應該合併的元素，最後 n 個元素設置為 0 並且應該被忽略。 nums2 的長度為 n。
 
+# 範例
 
 Example 1:
 ```

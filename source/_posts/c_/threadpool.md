@@ -56,7 +56,7 @@ public class Example
 }
 ```
 # 結果
-![result](../image/c_/threadpool_2.png "result")
+![result](../image/c_/threadpool_2.PNG "result")
 
 # 結語
 Thread和Threadpool 的區別：

@@ -129,7 +129,7 @@ static void Main(string[] args)
 
 <h3 style="color:red">顯示結果</h3>
 
-![result](../image/designpattern/designpattern-builder.png "result")
+![result](../image/designpattern/designpattern_builder.PNG "result")
 
 
 # 結語
