@@ -83,3 +83,4 @@ console.log(stack);
 1.以上程式碼利用javascript的Array和Object Property做出stack的資料結構
 
 2.堆疊常用在動態編成和遞迴中，不過要注意太多堆疊會造成overflow的錯誤
+

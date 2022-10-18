@@ -1,11 +1,15 @@
 ---
-title: Javascript 簡易版貪食蛇
+title: Javascript遊戲製作(一)貪食蛇
 date: 2022-09-15 13:26:27
 tags:
 - JavaScript
 - Stack
 - Sanck
-categories: JavaScript
+- Canvas
+- Game
+categories: 
+- JavaScript
+- Game
 ---
 
 # 前言

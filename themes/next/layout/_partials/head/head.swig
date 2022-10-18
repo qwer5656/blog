@@ -65,5 +65,13 @@ crossorigin="anonymous"></script>
 
 <meta name="google-site-verification" content="Dltoh42ZhcA7DgcnVwBEPB-rDzL-jidqoWwLoLs6eAA" />
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YED3XYFWGE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-YED3XYFWGE');
+</script>
 
