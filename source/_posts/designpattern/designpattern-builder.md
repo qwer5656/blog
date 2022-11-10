@@ -1,5 +1,5 @@
 ---
-title: 設計模式 Design Pattern (三) 建造者模式(Builder Pattern)
+title: 設計模式 Design Pattern (四) 建造者模式(Builder Pattern)
 date: 2022-08-26 11:40:37
 tags: 
 - C#

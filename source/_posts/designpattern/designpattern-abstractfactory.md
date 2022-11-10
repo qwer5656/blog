@@ -1,5 +1,5 @@
 ---
-title: 設計模式 Design Pattern (一) 工廠模式(Factory Pattern)_抽象工廠模式
+title: 設計模式 Design Pattern (二) 抽象工廠模式(Factory Pattern)
 date: 2022-08-23 10:27:41
 tags: 
 - C#

@@ -1,5 +1,5 @@
 ---
-title: 設計模式 Design Pattern (二) 單例模式(Singleton Pattern)
+title: 設計模式 Design Pattern (三) 單例模式(Singleton Pattern)
 date: 2022-08-24 16:06:05
 tags: 
 - C#
